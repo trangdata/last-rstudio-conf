@@ -1,0 +1,224 @@
+/*-- scss:defaults --*/
+
+$body-bg: #FFFFF5;
+
+/*-- scss:rules --*/
+
+.reveal h2 {
+  margin-bottom: 0.5em;
+}
+
+.reveal .slide div.aside {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.7em;
+  color: #6f6f6f;
+}
+
+.reveal .slide-background-content {
+  background-size: contain;
+}
+
+.reveal .slide ol li {
+  margin-top: 0.8em !important;
+}
+.reveal .slide ul li {
+  margin-top: 0.8em !important;
+}
+
+.quarto-figure.quarto-figure-center {
+  margin-bottom: 0em;
+}
+
+#title-slide .title {
+  font-size: 70px;
+  text-align: left;
+  margin: auto auto 50px auto;
+}
+.reveal div.sourceCode pre.sourceCode {
+  background-color: inherit;
+}
+.reveal code {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+.reveal pre code {
+  max-height: 600px;
+}
+.centered-slide-text {
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 40%;
+  transform: translate(calc(-50%), calc(-50%));
+}
+.text-block {
+  display: block;
+  position: absolute;
+  padding: 5px 10px;
+}
+
+.reveal div.sourceCode {
+  background-color: white;
+}
+pre > code.sourceCode > span {
+  color: #00769e
+}
+
+.big-code-chunk > .sourceCode {
+  font-size: 1.35em;
+  margin: 5px 15px;
+  line-height: 1.5;
+}
+.medium-code-chunk > .sourceCode {
+  font-size: 1.25em;
+  margin: 5px 10px;
+  line-height: 1.4;
+  max-height: 100% !important;
+}
+
+
+.workflow-action {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.big-code-hl {
+  background-color: greenyellow;
+  padding: 10px 20px;
+}
+
+#output-ggplot-class > code {
+  padding: 1em;
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.big-chunk-output > code {
+  padding: 0.5em 0em 1em 0.5em !important;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.divbr {
+  height: 0.5em;
+}
+
+.reveal pre.sourceCode code {
+  background-color: transparent;
+}
+.hl-block {
+  // width: 1 + 0.5 * nchar
+  // top: 1.45 * (nline - 1)
+  // left: 0.5 * nchar
+  position: absolute;
+  font-size: 1.4em;
+  transform: translate(18px, 6px);
+  padding: 0.2em 0em;
+}
+
+.vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: -0.5em;
+}
+
+.bordered {
+  border: 10px solid darkred;
+  border-radius: 10px;
+}
+
+.imgbox {
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 15px rgb(90 150 250 / 50%);
+  background-color: white;
+}
+
+.imgbox img {
+  padding: 20px;
+  display: block;
+}
+
+.imgbox .pkg-logo-modal {
+  position: absolute;
+  width: 100px;
+  bottom: 20px;
+  right: 30px;
+  background-color: transparent;
+}
+
+.my-hl-1 {
+  font-weight: bold;
+  color: #E16A86
+}
+.my-hl-2 {
+  font-weight: bold;
+  color: #AA9000
+}
+.my-hl-3 {
+  font-weight: bold;
+  color: #00AA5A
+}
+.my-hl-4 {
+  font-weight: bold;
+  color: #B675E0
+}
+.step-arrow {
+  font-size: 1.5em;
+  text-shadow: 0 0 black;
+}
+
+.internal-steps-container {
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  justify-content: space-between;
+  align-items: center;
+}
+.internal-step {
+  width: 80%;
+  height: 100px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Consolas;
+}
+
+.col-hl-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.col-hl {
+  position: absolute;
+  display: inline-block;
+  background-color: #ffff000f;
+  outline: 5px solid yellow;
+  outline-offset: -1px;
+  box-shadow: 0px 0px 15px 10px grey;
+}
+
+code span.fu.ggtrace-fn {
+  font-weight: bold;
+  color: #ac0aac;
+}
+
+.self-hl {
+  padding: 3px;
+  background-color: #bc49bc;
+  color: white;
+}
+
+.reveal .slide-logo {
+  max-height: 8rem !important;
+}

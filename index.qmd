@@ -1,0 +1,100 @@
+---
+title: "Exciting things I learned at rstudio::conf(2022)"
+format:
+  revealjs:
+    revealjs-plugins:
+      - fullscreen
+    # include-in-header: "meta.html"
+    # include-after-body: "postprocessing.html"
+    footer: "https://trangdata.github.io/last-rstudio-conf"
+    theme: [default, style.scss]
+    code-line-numbers: false
+    slide-number: false
+    execute:
+      echo: true
+    knitr:
+      opts_chunk: 
+        R.options:
+          width: 70
+        class-source: "big-code-chunk"
+        class-output: "big-chunk-output"
+        dev: "svglite"
+        dev.args:
+          scaling: 1.5
+editor: visual
+---
+
+##  {background="#b1cfeb"}
+
+[Quarto]{.centered-slide-text} <!-- the new Rmarkdown/Jupyter -->
+
+##  {background="white" background-iframe="https://quarto.org/#hello-quarto"}
+
+## Unification
+
+<!-- -   Languages: -->
+```{r, engine = 'bash', eval=FALSE}
+quarto preview notebook.ipynb --to pdf
+quarto convert notebook.ipynb # to .qmd
+```
+
+-   Platforms ![quarto-unify](quarto-unify.png)
+-   Citation
+
+##  {background="#292f2c"}
+
+![](https://d33wubrfki0l68.cloudfront.net/f567102197110696f30ee8983050ecdb994adf8c/59526/blog/rstudio-is-becoming-posit/thumbnail_hub4076432a9bd62034697fb6bf5e4d30a_143092_2220x0_resize_q75_box.jpg){.r-stretch}
+
+<!-- [RStudio → Posit]{.centered-slide-text} -->
+
+## The Posit future
+
+-   Carlos Rios has to change all of his RSConnect, Workbench, Package Manager slides
+-   RStudio IDE stays
+-   More features for Python, Julia, etc.
+    -   [Shiny for Python](https://shiny.rstudio.com/py/)
+    -   The language-agnostic Quarto engine
+-   Terrible puns
+
+## 
+
+<iframe class="stretch" data-src="https://art-from-code.netlify.app/" title="https://art-from-code.netlify.app/">
+
+</iframe>
+
+## ggdist
+
+https://mjskay.github.io/ggdist/
+
+## New way to build Shiny
+
+##  {background="#f6f9fb" fullscreen="true"}
+
+<!-- Iframe doesn't seem work properly with self-contained. -->
+
+<iframe class="stretch" data-src="https://quarto.org/" title="https://quarto.org/">
+
+</iframe>
+
+## ggplot internals as data wrangling {.nostretch}
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation.
+To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code.
+You can embed code like this:
+
+```{r}
+1 + 1
+```
