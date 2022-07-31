@@ -89,12 +89,12 @@ bibliography: references.bib
 ## The Posit future
 
 ::: incremental
--   Carlos Rios will need to change all of his RSConnect, Workbench, Package Manager slides
+-   Carlos Rios will need to change all of his RSConnect, Workbench, Package Manager slides 😈
 -   More features for Python, Julia, etc.
     -   [Shiny for Python](https://shiny.rstudio.com/py/)
     -   The language-agnostic [Quarto](https://quarto.org) engine
     -   WASM: code on a browser with [WebR](https://github.com/georgestagg/webR)
--   Terrible puns: *posit*ive, de*posit*
+-   Terrible puns: *posit*ive, de*posit* 🤦🏽
 :::
 
 ##  {background="white"}
@@ -136,6 +136,8 @@ test_that("{shinytest2} recording: simple-app", {
 -   [geoarrow](https://github.com/paleolimbot/geoarrow)
 -   tidysynthesis
 -   Kelly O'Briant's [Off-Host Content Execution for Posit Connect](https://kelly.quarto.pub/rstudioconf-talk-2022/)
+-   [sfdep](https://sfdep.josiahparry.com/)
+-   [diffify](https://diffify.com/)
 
 ##  {background-iframe="https://awalsh17.github.io/posts/2022-07-26-rstudio-conference-talk-2022/slides/index.html#14"}
 
@@ -181,6 +183,10 @@ cli::cli_abort(c(
 
 [Other workshops]{.centered-slide-text} <!-- the new Rmarkdown/Jupyter -->
 
+##  {background-iframe="https://rstats-wtf.github.io/wtf-debugging-slides"}
+
+##  {background-iframe="https://shinyprod.com/schedule.html"}
+
 ##  {background="black"}
 
 <iframe class="stretch" data-src="https://art-from-code.netlify.app/" title="https://art-from-code.netlify.app/">
@@ -188,3 +194,10 @@ cli::cli_abort(c(
 </iframe>
 
 ## References
+
+::: {#refs}
+:::
+
+##  {background="#449896"}
+
+[Thank you!]{.centered-slide-text}
