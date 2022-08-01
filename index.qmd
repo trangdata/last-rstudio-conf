@@ -4,6 +4,7 @@ format:
   revealjs:
     # highlight-style: tango
     # code-link: true # TODO
+    preview-links: true
     revealjs-plugins:
       - fullscreen
     # include-in-header: "meta.html"
@@ -117,7 +118,7 @@ bibliography: references.bib
 
 ```{r}
 #| eval: false
-#| class.source: 
+
 test_that("{shinytest2} recording: simple-app", {
   app <- AppDriver$new(name = "simple-app", height = 407, width = 348)
   app$set_inputs(name = "Barret")
@@ -136,10 +137,8 @@ test_that("{shinytest2} recording: simple-app", {
 -   [geoarrow](https://github.com/paleolimbot/geoarrow)
 -   tidysynthesis
 -   Kelly O'Briant's [Off-Host Content Execution for Posit Connect](https://kelly.quarto.pub/rstudioconf-talk-2022/)
--   [sfdep](https://sfdep.josiahparry.com/)
 -   [diffify](https://diffify.com/)
-
-##  {background-iframe="https://awalsh17.github.io/posts/2022-07-26-rstudio-conference-talk-2022/slides/index.html#14"}
+-   Alice Walsh's [Becoming Creative](https://awalsh17.github.io/posts/2022-07-26-rstudio-conference-talk-2022/slides/index.html#14)
 
 ## Package development masterclass
 
@@ -149,9 +148,7 @@ test_that("{shinytest2} recording: simple-app", {
     -   `@param x,y`
     -   `@keywords internal`
 
-## Write better error messages
-
-<!-- <https://cli.r-lib.org/> -->
+## Write [better error messages](https://cli.r-lib.org/)
 
 -   [**Consistent**]{style="color:#a23e02"}
 -   [**Transparent**]{style="color:#a23e02"}: type, value
@@ -173,7 +170,7 @@ cli::cli_abort(c(
 ))
 ```
 
-## Function design
+## [Function design](https://design.tidyverse.org/)
 
 -   `rlang::arg_match()`: more about argument than match, autocomplete, etc.
 
@@ -183,15 +180,11 @@ cli::cli_abort(c(
 
 [Other workshops]{.centered-slide-text} <!-- the new Rmarkdown/Jupyter -->
 
-##  {background-iframe="https://rstats-wtf.github.io/wtf-debugging-slides"}
+## 
 
-##  {background-iframe="https://shinyprod.com/schedule.html"}
-
-##  {background="black"}
-
-<iframe class="stretch" data-src="https://art-from-code.netlify.app/" title="https://art-from-code.netlify.app/">
-
-</iframe>
+-   [Shiny in production](https://shinyprod.com/schedule.html)
+-   [What they forgot to teach you about R](https://rstats-wtf.github.io/wtf-debugging-slides)
+-   [Art from Code](https://art-from-code.netlify.app/)
 
 ## References
 
