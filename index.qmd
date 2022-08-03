@@ -10,8 +10,8 @@ format:
     # include-in-header: "meta.html"
     # include-after-body: "postprocessing.html"
     # footer: "https://trangdata.github.io/last-rstudio-conf"
-    theme: [default, style.scss]
     # slide-number: false
+    theme: [default, style.scss]
     execute:
       echo: true
       eval: true
@@ -29,17 +29,17 @@ editor: visual
 bibliography: references.bib
 ---
 
-##  {background="#447098"}
+##  {#quarto background="#447098"}
 
 [Quarto]{.centered-slide-text} <!-- the new Rmarkdown/Jupyter -->
 
-##  {background="#f6f9fb"}
+##  {#quarto-site background="#f6f9fb"}
 
 <iframe class="stretch" data-src="https://quarto.org/" title="https://quarto.org/">
 
 </iframe>
 
-## 
+##  {#codes}
 
 ```{r}
 #| echo: fenced
@@ -79,9 +79,15 @@ bibliography: references.bib
     -   Citation [@quarto]
     -   Insert anything: `⌘/`
 
-##  {background-iframe="https://mine.quarto.pub/hello-quarto/#/demo-teach"}
+##  {#quarto-demo background-iframe="https://mine.quarto.pub/hello-quarto/#/demo-teach"}
 
-##  {background="#292f2c"}
+##  {#sampada background="#f8e6e4"}
+
+<iframe class="stretch" data-src="https://sampadapokharel.github.io/" title="Sampada">
+
+</iframe>
+
+##  {#posit-logo background="#292f2c"}
 
 ![](https://d33wubrfki0l68.cloudfront.net/f567102197110696f30ee8983050ecdb994adf8c/59526/blog/rstudio-is-becoming-posit/thumbnail_hub4076432a9bd62034697fb6bf5e4d30a_143092_2220x0_resize_q75_box.jpg){.r-stretch}
 
@@ -98,7 +104,7 @@ bibliography: references.bib
 -   Terrible puns: *posit*ive, de*posit* 🤦🏽
 :::
 
-##  {background="white"}
+##  {#tidymodeling background="white"}
 
 <iframe class="stretch" data-src="https://www.tmwr.org/" title="Tidymodeling">
 
@@ -110,7 +116,7 @@ bibliography: references.bib
 -   [shinyuieditor](https://rstudio.github.io/shinyuieditor/): a drag-and-drop visual editor for your Shiny app's ui
 -   [Dashboard-Builder](https://github.com/petergandenberger/dashboard-builder): generate even server's code
 
-##  {background-iframe="https://nickstrayer.me/rstudioconf2022/videos/drag-and-drop.webm"}
+##  {#uieditor-demo background-iframe="https://nickstrayer.me/rstudioconf2022/videos/drag-and-drop.webm"}
 
 ## shinytest2: game changer!
 
@@ -176,11 +182,11 @@ cli::cli_abort(c(
 
 -   `cli_inform()`
 
-##  {background="#986C44"}
+##  {#other-workshops background="#986C44"}
 
 [Other workshops]{.centered-slide-text} <!-- the new Rmarkdown/Jupyter -->
 
-## 
+##  {#linked-workshops}
 
 -   [Shiny in production](https://shinyprod.com/schedule.html)
 -   [What they forgot to teach you about R](https://rstats-wtf.github.io/wtf-debugging-slides)
@@ -191,6 +197,6 @@ cli::cli_abort(c(
 ::: {#refs}
 :::
 
-##  {background="#449896"}
+##  {#thanks background="#449896"}
 
 [Thank you!]{.centered-slide-text}
