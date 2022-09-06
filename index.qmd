@@ -191,6 +191,7 @@ cli::cli_abort(c(
 -   [Shiny in production](https://shinyprod.com/schedule.html)
 -   [What they forgot to teach you about R](https://rstats-wtf.github.io/wtf-debugging-slides)
 -   [Art from Code](https://art-from-code.netlify.app/)
+-   [nbdev + Quarto](https://nbdev.fast.ai/)
 
 ## References
 
