@@ -1,6 +1,12 @@
 # Exciting things I learn at rstudio::conf(2022)
 
-[Workshop](https://github.com/rstudio-conf-2022/) highlights:
+## Recordings
+
+-   [Keynotes](https://www.rstudio.com/conference/#conf-keynotes)
+-   [Conference talks](https://www.rstudio.com/conference/2022/2022-conf-talks/)
+-   [Post-conf general notes](https://www.rstudio.com/blog/talks-and-workshops-from-rstudio-conf-2022/)
+
+## [Workshop](https://github.com/rstudio-conf-2022/) highlights
 
 -   [Quarto Get Started](https://github.com/rstudio-conf-2022/get-started-quarto)
 -   [Debugging (WTF)](https://rstats-wtf.github.io/wtf-debugging-slides/)
@@ -9,7 +15,7 @@
 -   [Snapshot tests](https://github.com/rstudio-conf-2022/pkg-dev-masterclass/blob/main/materials/6-testing-2-snapshot-tests.pdf)
 -   [Databases & APIs in Shiny apps](https://shinyprod.com/units/d1-04-db-api.html)
 
-Others:
+## Others
 
 -   Mine and Julia's [Quarto talk](https://mine.quarto.pub/hello-quarto/)
 
